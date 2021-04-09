@@ -24,7 +24,7 @@ a {
 
 
 
-/*  HEADER =========================================================================*/
+/* HEADER (MOBILE) START========================================================== */
 
 
 
@@ -89,25 +89,38 @@ a {
 	width: 52px;
 }
 
-#promo {
+/* END (MOBILE) HEADER ============================================================*/
+
+/* =============================================================== HOMEPAGE STARTS */
+
+/* START (MOBILE) PROMOTION ================*/
+
+.promo {
 	display: none;
 }
 
-/*#promo {
-	height: 240px;
-	background-image: url(../img/golf-course-m.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-}*/
-
-#mPromoTxt {
+.mPromo {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	background-color: #379683;
 	width: 100%;
+	margin: auto;
+}
+
+.beerPromo {
+	object-fit: cover;
+	width: 100%;
+	height: 700px;
+}
+
+.mPromoTxt {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #000;
+	opacity: 0.7;
+	width: 400px;
 	height: 700px;
 	margin: 0 auto;
 }
@@ -136,15 +149,24 @@ a {
 	color: #8EE4AF;	
 }
 
-#mPromoTxt p {
-	text-align: center;
+.mPromoTxt p {
 	margin: 30px auto;
+	text-align: center;
 	line-height: 1.2;
 	font-size: 25px;
 	font-weight: bold;
 	width: 240px;
 	color: #EDF5E1;
-	/*border: 1px solid #000;*/
+}
+
+.productHeroTxt p {
+	margin: 25px auto 0px 1%;
+	line-height: 1.7;
+	letter-spacing: 1px;
+	width: 500px;
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
 }
 
 .explore {
@@ -169,6 +191,65 @@ a {
 	border: 1px solid #05386b;
 	color: #05386b;
 }
+/*=======================================================*/
+#productionHero {
+	object-fit: cover;
+	width: 100%;
+	height: 700px;
+}
+
+#productHero {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	object-fit: cover;
+	width: 100%;
+	height: 700px;
+	background-color: #091f16;
+	margin: 0 auto;
+}
+
+#productHeroTxt {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	/*border: 2px solid #000;*/
+}
+
+#premDrnk {
+	position: absolute;
+	margin: 25px auto 0px auto;
+	line-height: 1.4;
+	color: #fff;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#premDrnk2 {
+	margin: 65px auto 0px auto;
+	line-height: 1.4;
+	color: #8EE4AF;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#productHeroTxt p {
+	margin: 25px auto 0px 1%;
+	line-height: 1.7;
+	letter-spacing: 1px;
+	width: 500px;
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+/* START (MOBILE) INTRODUCTION ============*/
 
 .intro {
 	background-color: #8EE4AF;
@@ -183,7 +264,6 @@ a {
 	margin: 70px auto;
 	width: 320px;
 	background-color: #5CDB95;
-	/*border: 2px solid #05386b;*/
 	border-radius: 15px;
 }
 
@@ -228,25 +308,27 @@ a {
 	color: #000;
 }
 
-#product1 {
+/* START (MOBILE) PRODUCTS SECTION ========*/
+
+.product1 {
 	display: flex;
 	width: 100%;
 	justify-content: center;
 	margin: 0 auto;
 }
 
-#pro1Img1 {
+.pro1Img1 {
 	display: none;
 }
 
-#pro1Img2 {
+.pro1Img2 {
 	width: 356px;
 	height: 356px;
 	margin: 200px auto 0px auto;
 	border: 7px solid #379683;
 }
 
-#product1 h3 {
+.product1 h3 {
 	margin: 22px auto 19px auto;
 	letter-spacing: -1px;
 	text-align: center;
@@ -255,7 +337,7 @@ a {
 	color: #EDF5E1;	
 }
 
-#product1 p {
+.product1 p {
 	width: 350px;
 	margin: 0px auto 18px auto;
 	line-height: 1.2;
@@ -264,7 +346,7 @@ a {
 	color: #05386b;
 }
 
-#more1 {
+.more1 {
 	margin: 20px auto 0px auto;
 	display: block;
 	width: 150px;
@@ -279,14 +361,14 @@ a {
 	transition: all .2s ease-in-out;
 }
 
-#more1:hover {
+.more1:hover {
     -webkit-transform: scale(1.1, 1.1);
     -moz-transform: scale(1.1, 1.1);
 	background-color: #8EE4AF;
 	color: #000;
 }
 /*=======================================*/
-#product2 {
+.product2 {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
@@ -294,7 +376,7 @@ a {
 	margin: 0 auto;
 }
 
-#product2 h3 {
+.product2 h3 {
 	margin: 22px auto 19px auto;
 	letter-spacing: -1px;
 	text-align: center;
@@ -303,7 +385,7 @@ a {
 	color: #EDF5E1;	
 }
 
-#product2 p {
+.product2 p {
 	width: 350px;
 	margin: 0px auto 18px auto;
 	line-height: 1.2;
@@ -312,18 +394,18 @@ a {
 	color: #05386b;
 }
 
-#pro2Img1 {
+.pro2Img1 {
 	width: 356px;
 	height: 356px;
 	margin: 200px auto 0px auto;
 	border: 7px solid #379683;
 }
 
-#pro2Img2 {
+.pro2Img2 {
 	display: none;
 }
 
-#more2 {
+.more2 {
 	margin: 20px auto 200px auto;
 	display: block;
 	width: 150px;
@@ -338,12 +420,14 @@ a {
 	transition: all .2s ease-in-out;
 }
 
-#more2:hover {
+.more2:hover {
     -webkit-transform: scale(1.1, 1.1);
     -moz-transform: scale(1.1, 1.1);
 	background-color: #8EE4AF;
 	color: #000;
 }
+
+/* START HOMEPAGE (PC VERSION) ====================== */
 
 @media screen and (min-width: 1080px) {
 
@@ -352,7 +436,6 @@ a {
 		flex-direction: row;
 		justify-content: space-evenly;
 		background-color: #5CDB95;
-		/*border: 2px solid #000;*/
 	}
 
 	#hLogo {
@@ -364,8 +447,6 @@ a {
 	}
 
 	#hLogo:hover {
-		/*-webkit-transform: scale(1.03, 1.03);
-		-moz-transform: scale(1.03, 1.03);*/
 		background-color: #8EE4AF;
 	}
 
@@ -414,7 +495,11 @@ a {
 
 	/*Promotion Section ======================*/
 
-	#promo {
+	.mPromo {
+		display: none;
+	}
+
+	.promo {
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
@@ -423,32 +508,28 @@ a {
 		margin: auto;
 	}
 
-	/*#promo {
-		height: 240px;
-		background-image: url(../img/golf-course-m.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
+	.beerPromo {
+		object-fit: cover;
 		width: 100%;
-	}*/
+		height: 700px;
+	}
 
-	#mPromoTxt {
+	.mPromoTxt {
 		display: none;
 	}
 
-	#promoTxt {
+	.promoTxt {
 		position: absolute;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
-		background-color: #379683;
 		width: 400px;
 		height: 700px;
 		margin: 0 auto;
-		margin-right: 220px;
+		margin-right: 180px;
 	}
 
-	#thickr {
+	.thickr {
 		margin: 80px 0px 0px 30px;
 		letter-spacing: -2px;
 		font-size: 80px;
@@ -456,7 +537,7 @@ a {
 		color: #EDF5E1;	
 	}
 
-	#lawn {
+	.lawn {
 		font-size: 80px;
 		font-weight: bold;
 		margin-left: 41px;
@@ -465,31 +546,29 @@ a {
 		color: #EDF5E1;	
 	}
 
-	#bbm {
+	.bbm {
 		font-size: 24px;
 		font-weight: bold;
 		margin: 35px 0px 0px 40px; 
 		color: #8EE4AF;	
 	}
 
-	#promoTxt p {
+	.promoTxt p {
 		margin: 45px 0px 0px 40px;
 		line-height: 1.2;
 		font-size: 25px;
 		font-weight: bold;
 		width: 240px;
 		color: #EDF5E1;
-		/*border: 1px solid #000;*/
 	}
 
-	#explore {
+	.explore {
 		margin: 30px 0px 0px 40px;
 		display: block;
 		width: 150px;
 		font-size: 23px;
 		font-weight: bold;
 		color: #EDF5E1;
-		text-align: center;
 		border: 1px solid #EDF5E1;
 		border-radius: 5px;
 		padding-top: 10px;
@@ -497,7 +576,7 @@ a {
 		transition: all .2s ease-in-out;
 	}
 
-	#explore:hover {
+	.explore:hover {
 	    -webkit-transform: scale(1.1, 1.1);
 	    -moz-transform: scale(1.1, 1.1);
 		background-color: #5CDB95;
@@ -520,7 +599,6 @@ a {
 		margin: 70px auto;
 		width: 320px;
 		background-color: #5CDB95;
-		/*border: 2px solid #05386b;*/
 		border-radius: 15px;
 	}
 
@@ -561,13 +639,14 @@ a {
 	.learn:hover {
 	    -webkit-transform: scale(1.1, 1.1);
 	    -moz-transform: scale(1.1, 1.1);
-		background-color: #fff;
+		background-color: #8EE4AF;
+		border: 2px solid #fff;
 		color: #000;
 	}
 
 	/* PROMOTION SECTION =========================*/
 
-	#product1 {
+	.product1 {
 		display: flex;
 		flex-direction: row;
 		width: 100%;
@@ -575,7 +654,7 @@ a {
 		margin: 0 auto;
 	}
 
-	#pro1Img1 {
+	.pro1Img1 {
 		display: block;
 		width: 356px;
 		height: 656px;
@@ -583,22 +662,25 @@ a {
 		border: 7px solid #EDF5E1;
 	}
 
-	#pro1Img2 {
+	.pro1Img2 {
 		width: 356px;
 		height: 356px;
 		margin: 200px 0px 0px 22px;
 		border: 7px solid #EDF5E1;
 	}
 
-	#product1 h3 {
+	.product1 h3 {
+		text-align: justify;
 		margin: 22px 0px 19px 22px;
 		letter-spacing: -1px;
 		font-size: 35px;
+
 		font-weight: bold;
 		color: #EDF5E1;	
 	}
 
-	#product1 p {
+	.product1 p {
+		text-align: justify;
 		width: 350px;
 		margin: 0px 0px 18px 22px;
 		line-height: 1.2;
@@ -606,7 +688,7 @@ a {
 		color: #05386b;
 	}
 
-	#more1 {
+	.more1 {
 		margin: 20px 0px 0px 22px;
 		display: block;
 		width: 150px;
@@ -621,14 +703,14 @@ a {
 		transition: all .2s ease-in-out;
 	}
 
-	#more1:hover {
+	.more1:hover {
 	    -webkit-transform: scale(1.1, 1.1);
 	    -moz-transform: scale(1.1, 1.1);
-		background-color: #bcc783;
+		background-color: #8EE4AF;
 		color: #000;
 	}
 	/*=======================================*/
-	#product2 {
+	.product2 {
 		display: flex;
 		flex-direction: row;
 		width: 100%;
@@ -636,7 +718,8 @@ a {
 		margin: 0 auto;
 	}
 
-	#product2 h3 {
+	.product2 h3 {
+		text-align: justify;
 		margin: 22px 22px 19px 0px;
 		letter-spacing: -1px;
 		font-size: 35px;
@@ -644,7 +727,8 @@ a {
 		color: #EDF5E1;	
 	}
 
-	#product2 p {
+	.product2 p {
+		text-align: justify;
 		width: 350px;
 		margin: 0px 22px 18px 0px;
 		line-height: 1.2;
@@ -652,21 +736,22 @@ a {
 		color: #05386b;
 	}
 
-	#pro2Img1 {
+	.pro2Img1 {
 		width: 356px;
 		height: 356px;
 		margin: 200px 22px 0px 0px;
 		border: 7px solid #EDF5E1;
 	}
 
-	#pro2Img2 {
+	.pro2Img2 {
+		display: block;
 		width: 356px;
 		height: 656px;
 		margin: 200px 0px 200px 22px;
 		border: 7px solid #EDF5E1;
 	}
 
-	#more2 {
+	.more2 {
 		margin: 20px 0px 200px 0px;
 		display: block;
 		width: 150px;
@@ -681,10 +766,10 @@ a {
 		transition: all .2s ease-in-out;
 	}
 
-	#more2:hover {
+	.more2:hover {
 	    -webkit-transform: scale(1.1, 1.1);
 	    -moz-transform: scale(1.1, 1.1);
-		background-color: #bcc783;
+		background-color: #8EE4AF;
 		color: #000;
 	}
 
@@ -851,7 +936,7 @@ textarea {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	width: 1447px;
+	width: 100%;
 	height: 700px;
 	background-color: #091f16;
 	margin: 0 auto;
@@ -1154,16 +1239,22 @@ textarea {
 
 
 
-/* PRODUCTION PAGE =================================================================*/
+/* PRODUCTION PAGE (PC VERSION) ====================================================*/
 
 
+
+#productionHero {
+	object-fit: cover;
+	width: 100%;
+	height: 700px;
+}
 
 #productHero {
-	position: relative;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	width: 1447px;
+	object-fit: cover;
+	width: 100%;
 	height: 700px;
 	background-color: #091f16;
 	margin: 0 auto;
@@ -1173,29 +1264,33 @@ textarea {
 	position: absolute;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
-	width: 1400px;
+	justify-content: center;
+	width: 100%;
 	height: 500px;
-	margin: 120px 0px 0px 10px;
+	margin: 80px auto;
 }
 
 #premDrnk {
 	position: absolute;
-	-webkit-text-stroke: 2px black;
-	-moz-text-stroke: 2px black;
-	margin: 75px 0px 0px 110px;
+	margin: 25px auto 0px auto;
+	line-height: 1.4;
 	color: #fff;
-	font-size: 90px;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
 }
 
 #premDrnk2 {
-	margin: 118px 0px 0px 110px;
-	color: #000;
-	font-size: 90px;
+	margin: 65px auto 0px auto;
+	line-height: 1.4;
+	color: #8EE4AF;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
 }
 
 #productHeroTxt p {
-	margin: 25px 0px 0px 110px;
+	margin: 25px auto 0px auto;
 	line-height: 1.7;
 	letter-spacing: 1px;
 	width: 500px;
@@ -1204,50 +1299,51 @@ textarea {
 	font-weight: bold;
 }
 
-/* ABOUT INTRODUCTION SECTION ===============*/
-
 .productSec {
 	display: flex;
-	flex-direction: row;
-	width: 1447px;
-	justify-content: space-evenly;
-	margin: 0 auto;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
 }
 
 .productSec section {
-	margin-left: 80px;
-	margin-top: 80px;
-	width: 320px;
+	margin: 80px auto;
+	justify-content: flex-end;
 }
 
 .productSec h2 {
 	font-size: 35px;
 	font-weight: bold;
+	text-align: center;
 	letter-spacing: 1px;
-	color: #081f11;
+	color: #05386B;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
 .productSec p {
+	text-align: center;
 	font-size: 35px;
 }
 
 .products {
+	margin: 0 auto;
+	border: 7px solid #fff;
 	width: 300px;
 	height: 300px;
 }
 
 .order {
-	margin: 20px 0px 80px 0px;
+	margin: 20px auto 80px auto;
 	display: block;
 	width: 150px;
-	background-color: #2db09d;
+	background-color: #8EE4AF;
 	color: #000;
 	text-align: center;
 	font-size: 19px;
 	font-weight: bold;
 	letter-spacing: 1px;
+	border: 2px solid #fff;
 	border-radius: 5px;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -1257,8 +1353,128 @@ textarea {
 .order:hover {
     -webkit-transform: scale(1.1, 1.1);
     -moz-transform: scale(1.1, 1.1);
-	background-color: #bcc783;
-	color: #000;
+	background-color: #5CDB95;
+	color: #05386B;
+}
+
+/* PRODUCTION SECTION (MOBILE) ==========================================*/
+
+@media screen and (min-width: 1080px) {
+
+	#productionHero {
+		object-fit: cover;
+		width: 100%;
+		height: 700px;
+	}
+
+	#productHero {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		object-fit: cover;
+		width: 100%;
+		height: 700px;
+		background-color: #091f16;
+		margin: 0 auto;
+	}
+
+	#productHeroTxt {
+		position: absolute;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 100%;
+		height: 500px;
+		margin: 100px auto 0px auto;
+	}
+
+	#premDrnk {
+		position: absolute;
+		margin: 25px auto 0px auto;
+		color: #fff;
+		font-size: 80px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	#premDrnk2 {
+		margin: 65px auto 0px auto;
+		color: #8EE4AF;
+		font-size: 80px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	#productHeroTxt p {
+		margin: 25px auto 0px 1%;
+		line-height: 1.7;
+		letter-spacing: 1px;
+		width: 500px;
+		color: #fff;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	/* PRODUCTS ===============================*/
+
+	.productSec {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-evenly;
+		margin: 0 auto;
+	}
+
+	.productSec section {
+		margin-top: 80px;
+		width: 314px;
+	}
+
+	.productSec h2 {
+		font-size: 35px;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 1px;
+		color: #05386B;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.productSec p {
+		text-align: center;
+		font-size: 35px;
+	}
+
+	.products {
+		margin: 0 auto;
+		border: 7px solid #fff;
+		width: 300px;
+		height: 300px;
+	}
+
+	.order {
+		margin: 20px auto 80px auto;
+		display: block;
+		width: 150px;
+		background-color: #8EE4AF;
+		color: #000;
+		text-align: center;
+		font-size: 19px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		border: 2px solid #fff;
+		border-radius: 5px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		transition: all .2s ease-in-out;
+	}
+
+	.order:hover {
+	    -webkit-transform: scale(1.1, 1.1);
+	    -moz-transform: scale(1.1, 1.1);
+		background-color: #5CDB95;
+		color: #05386B;
+	}
 }
 
 
@@ -1356,7 +1572,6 @@ textarea {
 		color: #fff;
 		font-size: 24px;
 		font-weight: bold;
-		border: 1px solid #000;
 		border-radius: 20px;
 		padding: 14px 25px 14px 25px;
 		display: inline;
